@@ -1,0 +1,245 @@
+
+
+html{
+    height: 100%;
+}
+body {
+     background: #c4bfbf;
+     color: #000;
+     font-family: Arial, sans-serif;
+     font-size: 14px;
+padding: 0;
+    margin:0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+
+}
+#container {
+     background: ##c4bfbf;
+flex: 1 0 auto;
+    
+}
+header {
+    padding: 0;
+        margin:0;
+    box-sizing: border-box;
+  background: url(1518426151_shapka-avto-sayta-4534642211.jpg) no-repeat 30% 70%;
+  background-size: contain; 
+  height: 0;
+  width: 100%;
+  padding-bottom: 13.6666666666%;
+  }
+
+header h1 
+{
+      padding: 4%;
+        margin:0;
+   font-size: 40px;
+    
+  
+}
+
+nav {
+    background: #000;
+   margin: 0;
+ padding: 0;
+/*
+     position: fixed;
+    left: 0;
+*/
+    width: 100%;
+}
+ .dws-menu *{
+ margin: 0;
+ padding: 0;
+}
+.dws-menu ul,
+.dws-menu ol{
+ list-style: none;
+}
+.dws-menu > ul{
+ display: flex;
+ justify-content: flex-start;
+}
+.dws-menu > ul li{
+ position: relative;
+ border-right: 1px solid #c7c8ca;
+}
+/*
+.dws-menu > ul li:first-child{
+ border-left: 1px solid #b2b3b5;
+}
+*/
+.dws-menu > ul li:last-child{
+ border-right: 1px solid #babbbd;
+}
+
+.dws-menu > ul li a{
+ display: block;
+    background: #000;
+    padding: 15px 30px 15px 40px;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition:  all 0.3s ease;
+}
+.dws-menu li a:hover{
+background: #777575;
+ color: #ffffff;
+ box-shadow: 1px 5px 10px -5px white;
+ transition: all 0.3s ease;
+}
+/* sub menu */
+.dws-menu li ul{
+ position: absolute;
+ min-width: 190px;
+ display: none;
+}
+.dws-menu li > ul li{
+ border: 1px solid #FFF;
+}
+.dws-menu li > ul li a{
+ padding: 10px;
+ text-transform: none;
+ background: #000;
+}
+.dws-menu li > ul li ul{
+ position: absolute;
+ right: -150px;
+ top: 0;
+}
+.dws-menu li:hover > ul{
+ display: block;
+}
+#content {
+   
+     background: #c4bfbf;
+     
+     width: 100%;
+    min-height: 485px;
+
+}
+ 
+#clear {
+     clear: both;
+}
+footer{
+   /*Футер будет занимать столько места по вертикали, сколько и должен и не пикселя больше */
+    flex: 0 0 auto;
+    background-color: #000;
+    color:#FFF;
+    text-align: center;
+   
+}
+
+.widget-social li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20;
+}
+.widget-social li a{
+    text-decoration: none;
+   color: #FFF;
+}
+.gallary h1{
+    text-align: center;
+   
+}
+.gallary img{
+    
+    margin: 3px;
+    border: 3px solid #FFF
+}
+a.photo:hover img
+{
+    border: 3px solid #0707c6
+}
+.mc-wrapper {
+  background: #c4bfbf;
+  box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.1);
+}
+.moreContent {
+padding: 20px;
+position: relative;
+}</p>
+.moreContent:after {
+content: "";
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+width: 100%;
+height: 30px;
+position: absolute;
+bottom: 0;
+left: 0;
+pointer-events: none;
+}
+
+.moreContent.active:after { height: 0; }
+[class*="btn-"] {
+background: transparent;
+color: inherit;
+font: inherit;
+border: none;
+outline: none;
+cursor: pointer;
+transition: all 200ms ease-in-out;
+}
+
+.btn-default {
+background-color: #2ecc71;
+color: #fff;
+text-align: center;
+text-transform: uppercase;
+width: 100%;
+padding: 12px 0;
+margin-top: 1em;
+}
+
+.btn-default.active { background-color: #e74c3c; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
